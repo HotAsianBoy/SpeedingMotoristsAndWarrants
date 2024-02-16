@@ -1,10 +1,15 @@
+"""Speeding Motorists And Warrants v1
+Used the 'Class' code, however, did not fully understand the process and
+comprehensive understanding. __innit__(self) was used to initialize
+the attributes of the object as soon as it was formed"""
+
 
 class SpeedingTicketTracker:
     def __init__(self):
         self.speeders = []
         self.total_fines = 0
 
-    def calculate_fine(self, speed):
+    def calculate_fin(self, speed):
         if speed < 10:
             return 30
         elif 10 <= speed < 15:

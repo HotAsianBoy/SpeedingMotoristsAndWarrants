@@ -1,5 +1,7 @@
 """Speeding Motorists And Warrants v2
-Removed the 'class' code and replaced with definitive functions
+ Fixed typo errors, Removed the 'class' code and replaced with
+ definitive functions to make the program much simpler and easier
+ to understand.
 Created loop in which type stop to end"""
 
 
